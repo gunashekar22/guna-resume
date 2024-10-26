@@ -1,0 +1,81 @@
+li {
+  list-style-type: none;
+  /* background-color: rgb(209, 230, 230); */
+  float: none;
+  margin: 30px;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 60px;
+}
+.no-underline {
+  text-decoration: none;
+  color: inherit; /* This ensures that the link color remains the same as the surrounding text */
+}
+li:hover {
+  background-color: black;
+  color: rgb(255, 255, 255);
+
+}
+
+ul {
+ 
+background-image: linear-gradient("blue,black,yellow");
+  display:flex;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+nav {
+ /* background-color: aqua; */
+
+ 
+}
+
+.menu-toggle {
+  display: none; /* Initially hidden, will be shown on smaller screens */
+  background: none;
+  border: none;
+  color:black;
+  padding: 10px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .menu-toggle {
+      display: block; /* Show the toggle button on smaller screens */
+  }
+  
+  ul {
+      display: none; /* Hide the menu by default */
+      float: none;
+      padding: 0;
+      text-align: center;
+  }
+  
+  ul.open {
+      display: block; /* Show the menu when it's open */
+  }
+  
+  li {
+      float: none;
+      margin: 10px 0; /* Adjust margins for vertical spacing */
+  }
+  
+  nav {
+      display: block;
+  }
+}
+
+
+
+li{
+
+  border:2px solid black;
+
+}
+
+
+
+  
+

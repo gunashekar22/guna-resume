@@ -1,0 +1,19 @@
+
+
+.profile{
+    border:1px solid black;
+   border-top-left-radius: 15%;
+   border-bottom-right-radius: 15%;
+    animation-name: profile;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;  
+ 
+}
+
+@keyframes profile {
+    0%{background-color: rgb(128, 11, 224)}
+
+    50%{background-color: rgba(32, 221, 231, 0.724);}
+    100%{background-color: rgb(21, 21, 234);}
+    
+}
