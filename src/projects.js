@@ -16,7 +16,7 @@ function Projects() {
     },
     {
       title: "TODO list",
-      url: "https://gunashekar22.github.io/TODO/",
+      url: "https://gunashekar22.github.io/TO-DO/",
       description: "Its an application which creates a TODO list.Once that task is completed we can delete from the TODO list."
     },
     
