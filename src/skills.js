@@ -26,8 +26,10 @@ function Skills() {
     {
       category: " Backend Development ",
       skills: [
-        { name: "Java", details: "Building server-side applications" },
-        { name: "JSP", details: "Creating dynamic web content" },
+       { name: "Java", details: "Building server-side applications" },
+    { name: "JSP", details: "Creating dynamic web content" },
+    { name: "Servlets", details: "Handling HTTP requests and responses in web applications" },
+    { name: "JDBC", details: "Connecting and interacting with databases in Java" }
  
     ]
     },
