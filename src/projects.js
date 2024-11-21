@@ -10,15 +10,16 @@ function Projects() {
       description: "Replicated Amazon Website by using the following Technologies-HTML,CSS,JS and accepted data from an API call "
     },
     {
+      title: "TODO list",
+      url: "https://gunashekar22.github.io/TO-DO/",
+      description: "Its an application which creates a TODO list.Once that task is completed we can delete from the TODO list and Search the tasks on a particular day"
+    },
+    {
       title: "Rock Paper Scissors",
       url: "https://gunashekar22.github.io/Stone-Paper-Scissor/",
       description: "Online Game that can play by human vs Computer and auto play with computer.This is done by using following Technologies-HTML,CSS,JS"
-    },
-    {
-      title: "TODO list",
-      url: "https://gunashekar22.github.io/TO-DO/",
-      description: "Its an application which creates a TODO list.Once that task is completed we can delete from the TODO list."
-    },
+    }
+    
     
   ];
 
